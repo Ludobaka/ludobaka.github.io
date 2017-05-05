@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/post/welcome/</loc>
+    <loc>https://ludobaka.github.io/post/welcome/</loc>
     <lastmod>2017-05-05T15:50:52+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2017-05-05T15:50:52+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/post/</loc>
+    <loc>https://ludobaka.github.io/</loc>
     <lastmod>2017-05-05T15:50:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://ludobaka.github.io/post/</loc>
+    <lastmod>2017-05-05T15:50:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tutorials/</loc>
+    <loc>https://ludobaka.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ludobaka.github.io/tutorials/</loc>
     <priority>0</priority>
   </url>
   

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ludovic Bailly</title>
-    <link>http://example.com/post/</link>
+    <link>https://ludobaka.github.io/post/</link>
     <description>Recent content in Posts on Ludovic Bailly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 May 2017 15:50:52 +0200</lastBuildDate>
     
-	<atom:link href="http://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ludobaka.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome !</title>
-      <link>http://example.com/post/welcome/</link>
+      <link>https://ludobaka.github.io/post/welcome/</link>
       <pubDate>Fri, 05 May 2017 15:50:52 +0200</pubDate>
       
-      <guid>http://example.com/post/welcome/</guid>
+      <guid>https://ludobaka.github.io/post/welcome/</guid>
       <description>Welcome to my personal website. It has been written while learning to use Hugo, a static site generator. This website is using Hugo-Geo Theme to render the web page. You will find here various information, and even maybe some blog articles like this one !
 If you want to make your own website and enjoy hacking, you must definitely check out the Getting Started Tutorial of Hugo and find out if it suits to your needs.</description>
     </item>
