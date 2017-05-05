@@ -1,0 +1,52 @@
+baseurl = "http://example.com/"
+theme = "hugo-geo"
+relativeURLs = false
+languageCode = "en-us"
+title = "My Personal Website"
+disqusShortname = "ludobaka-github-io"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+
+	favicon = "favicon.ico"
+
+	analytics = "UA-98630525-1"
+
+	email = "ludo.bailly@gmail.com"
+
+	profilepic = "img/profile.png"
+
+	title = "Ludovic Bailly"
+	subtitle = "3D Engineer"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/lbailly/"
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/ludobaka"
+	[[params.socialbuttons]]
+	faicon = "stack-overflow"
+	url = "https://stackoverflow.com/u/5398225/"
+	[[params.socialbuttons]]
+	faicon = "soundcloud"
+	url = "https://soundcloud.com/ludobailly"
+
+	# [[params.navlinks]]
+	# name = "About"
+	# url = "about"
+    #
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+    #
+	# [[params.navlinks]]
+	# name = "Tutorials"
+	# url = "tutorial/"
