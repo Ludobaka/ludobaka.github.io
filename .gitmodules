@@ -1,0 +1,3 @@
+[submodule "website/themes/hugo-geo"]
+	path = website/themes/hugo-geo
+	url = https://github.com/alexurquhart/hugo-geo.git
