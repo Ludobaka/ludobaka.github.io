@@ -1,0 +1,20 @@
+{
+  "name": "ludobaka.github.io",
+  "version": "1.0.0",
+  "author": "Ludovic Bailly <ludo.bailly@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ludovic Bailly"
+    }
+  ],
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": ">=0.5.0",
+    "grunt-contrib-watch": ">=1.0.0",
+    "grunt-contrib-connect": ">=1.0.2",
+    "grunt-shell": ">=1.1.2",
+    "load-grunt-config": "=0.19.1",
+    "load-grunt-tasks": "=3.4.1",
+    "time-grunt": "=1.4.0"
+  }
+}

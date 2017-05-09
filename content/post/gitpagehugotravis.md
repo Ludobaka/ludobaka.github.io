@@ -19,6 +19,6 @@ How to build a user git page w Hugo & Travis CI
 3. Build & Deploy
     * You may want to do it manual like indicated in Hugo's Doc (https://gohugo.io/tutorials/github-pages-blog/)
     * However, better to automatize process => Travis CI !
-    * Need install ruby-dev & golang-go
+    * Need install ruby-dev & golang-go (v1.8)
 
 4. Travis-CI : A tool for continuous integration https://blog.christophvoigt.com/setting-up-hugo-with-github-pages/
