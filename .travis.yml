@@ -1,0 +1,20 @@
+env:
+  global:
+    - secure: "r/vvU9fEgCrvHMiU7fMOdRX47R3lPBYVSX0ZpqLC2Zd3bU6tLprlKl5HVi2fNfL9XyZ2Myw40rezMi/P/ZcAiel8mOOniHKh/uTzbdqb4c1iBZchRVfZtexTbllloBK8kOUp/VeSLkffdDi4MfJ3DVUZANwuCNkKI8w+Fo97H3iJqYhUAKbB1TuhsZvAdG+O5HdEmrtLF46WJhJMhDxUf8aDbHiiBE1o01/rryoHWSOrcGa6lXC7hcedgp6U9IXdVfA8V5pOFMZm/suBNGW0xQ7+tSDLJIgRfqvX6ugf5ReS2tTVaMsBzxafl3bl/KYQFjF9nkDTdN+CJDJNFfauz6E59PMQg64vrpru2ca252l5VfsLnMIaeTeUFLsklrai+BqOnUIszg6VeKQ5SCsG69Bj1IxIXdGRZl8cJt5TOQ6CyZ6p/u6RKczqIX38QR2zLOWKOArcvC8i9ZPHANn5FXb0rhfKvrW23FyYrChvrqIXpDRRb02O6vBBxWDCbDxU3R9CRIPqRG/Yq4iw+CV/DcvY8zTnQ7MO1KGNwhPqNmHM8rgKC7SJfZgjU5yFsCEmHgfg9dWwmjlx1z1Wfb49CQ2TWEyJhF8czR666q6bIsilY6JLPopJRbN8uWKq979V7NUOW/OGtkzNa2ge/Ay1qkF7QOn/46QiwTAxOcW63Rk="
+     # replace this with the travis encryption output!
+    - GIT_DEPLOY_DIR=public     # default output dir of Hugo (change it, when you use configured it!)
+    - GIT_DEPLOY_BRANCH=master          # target branch, replace by "gh-pages" for Github Project Pages
+    - GIT_DEPLOY_USERNAME="Travis CI"   # dummy name
+    - GIT_DEPLOY_EMAIL=ludo.bailly@gmail.com # replace by your email
+
+branches:
+  only:
+    - sources                           # for Github Project Pages replace with "master"
+
+install:
+  - rm -rf public || exit 0     # cleanup previous run
+script:
+  - binaries/hugo                       # Generate
+after_success:
+  - cp .travis.yml public       # all branches need this file
+  - bash deploy.sh                      # run the deploy
