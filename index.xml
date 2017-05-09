@@ -21,5 +21,14 @@
 If you want to make your own website and enjoy hacking, you must definitely check out the Getting Started Tutorial of Hugo and find out if it suits to your needs.</description>
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>https://ludobaka.github.io/about/</link>
+      <pubDate>Tue, 28 Jul 2015 09:51:51 -0400</pubDate>
+      
+      <guid>https://ludobaka.github.io/about/</guid>
+      <description>This placeholder page could be your &amp;ldquo;about me&amp;rdquo; page, where you detail your contact information, portfolio pieces, and describe yourself and your goals.</description>
+    </item>
+    
   </channel>
 </rss>
