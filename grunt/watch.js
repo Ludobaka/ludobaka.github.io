@@ -4,7 +4,7 @@ module.exports = {
         livereload: true
     },
     hugo: {
-        files: ['**'],
+        files: ['content/**', 'static/**', 'config.toml'],
         tasks: 'hugo:dev'
     },
     all: {

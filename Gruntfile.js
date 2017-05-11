@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         var done = this.async();
         var args = ['--destination=./build/' + target];
         if (target == 'dev') {
-            // args.push('--baseUrl=http://127.0.0.1:8080');
+            args.push('--baseUrl=http://127.0.0.1:8080/');
             args.push('--buildDrafts=true');
             args.push('--buildFuture=true');
         }
