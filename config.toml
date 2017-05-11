@@ -39,14 +39,14 @@ paginate = 5
 	faicon = "soundcloud"
 	url = "https://soundcloud.com/ludobailly"
 
-	[[params.navlinks]]
-	name = "About"
-	url = "about"
+	# [[params.navlinks]]
+	# name = "About"
+	# url = "about"
 
 	[[params.navlinks]]
 	name = "Blog"
 	url = "post/"
 
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
+	# [[params.navlinks]]
+	# name = "Tutorials"
+	# url = "tutorial/"
