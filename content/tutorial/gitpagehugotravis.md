@@ -24,4 +24,6 @@ How to build a user git page w Hugo & Travis CI
 
 4. Travis-CI : A tool for continuous integration https://blog.christophvoigt.com/setting-up-hugo-with-github-pages/
 
+5. Adapt your theme : best to create your overrides on website instead of editing theme
+
 http://tjm.io/grunt-hugo/
