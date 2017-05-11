@@ -4,6 +4,7 @@ draft = true
 highlight = true
 tags = ['hugo', 'git', 'travis']
 title = "How to build a Git user page with Hugo and Travis CI"
+index = true
 
 +++
 
@@ -22,3 +23,5 @@ How to build a user git page w Hugo & Travis CI
     * Need install ruby-dev & golang-go (v1.8)
 
 4. Travis-CI : A tool for continuous integration https://blog.christophvoigt.com/setting-up-hugo-with-github-pages/
+
+http://tjm.io/grunt-hugo/
