@@ -1,0 +1,66 @@
+<!-- Resume layout inspired by hugo-orbit-theme -->
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="main-wrapper">
+
+    <!-- Summary -->
+    <section class="section summary-section">
+        <h2 class="section-title"><i class="fa {{ .Params.params.summary.icon }}"></i>{{ .Params.params.summary.title }}</h2>
+        <div class="summary">
+            <p>{{ with .Params.params.summary.summary }}{{ . | markdownify }}{{ end }}</p>
+        </div><!--//summary-->
+    </section><!--//section-->
+
+    <!-- Experiences -->
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa {{ .Params.params.experiences.icon }}"></i>{{ .Params.params.experiences.title }}</h2>
+
+        {{ range .Params.params.jobs.list }}
+        <div class="item">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title">{{ .position }}</h3>
+                    <div class="time">{{ .dates }}</div>
+                </div><!--//upper-row-->
+                <div class="company">{{ .company }}</div>
+            </div><!--//meta-->
+            <div class="details">
+                <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+            </div><!--//details-->
+        </div><!--//item-->
+        {{ end }}
+
+    </section><!--//section-->
+
+    <!-- Projects -->
+    <section class="section projects-section">
+        <h2 class="section-title"><i class="fa {{ .Params.params.projects.icon }}"></i>{{ .Params.params.projects.title }}</h2>
+        <div class="intro">
+            <p>{{ with .Params.params.projects.intro }}{{ . | markdownify }}{{ end }}</p>
+        </div><!--//intro-->
+        {{ range .Params.params.projects.list }}
+        <div class="item">
+            <span class="project-title"><a href="{{ .url }}">{{ .title }}</a></span> - <span class="project-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
+        </div><!--//item-->
+        {{ end }}
+    </section><!--//section-->
+
+    <section class="skills-section section">
+        <h2 class="section-title"><i class="fa {{ .Params.params.skills.icon }}"></i>{{ .Params.params.skills.title }}</h2>
+        <div class="skillset">
+        {{ range .Params.params.skills.list }}
+            <div class="item">
+                <h3 class="level-title">{{ .skill }}</h3>
+                <div class="level-bar">
+                    <div class="level-bar-inner" data-level="{{ .level }}">
+                    </div>
+                </div><!--//level-bar-->
+            </div><!--//item-->
+        {{ end }}
+        </div>
+    </section><!--//skills-section-->
+
+</div><!--//main-body-->
+
+{{ partial "footer.html" . }}

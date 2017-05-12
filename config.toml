@@ -22,7 +22,7 @@ paginate = 5
 	profilepic = "img/profile.png"
 
 	title = "Ludovic Bailly"
-	subtitle = "3D Engineer"
+	subtitle = "Data Processing & 3D Modeling Engineer"
 
 	# Social buttons for sidebar
 	# Each of these are optional
@@ -39,10 +39,6 @@ paginate = 5
 	faicon = "soundcloud"
 	url = "https://soundcloud.com/ludobailly"
 
-	# [[params.navlinks]]
-	# name = "About"
-	# url = "about"
-
 	[[params.navlinks]]
 	name = "Blog"
 	url = "post/"
@@ -50,3 +46,11 @@ paginate = 5
 	# [[params.navlinks]]
 	# name = "Tutorials"
 	# url = "tutorial/"
+
+    [[params.navlinks]]
+    name = "Resume"
+    url = "resume/"
+
+    # [[params.navlinks]]
+    # name = "About"
+    # url = "about"
