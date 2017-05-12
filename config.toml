@@ -51,6 +51,6 @@ paginate = 5
     name = "Resume"
     url = "resume/"
 
-    # [[params.navlinks]]
-    # name = "About"
-    # url = "about"
+    [[params.navlinks]]
+    name = "About"
+    url = "about"

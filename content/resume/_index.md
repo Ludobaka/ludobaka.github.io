@@ -34,7 +34,7 @@ title = "Resume"
         position = "Software Development Apprenticeship"
         dates = "2012 - 2015"
         company = "IRCAD, Strasbourg, France"
-        details = "_IRCAD_ is a training and research institute, whose goal is to improve the treatment of patients with digestive cancer by using cutting-edge technologies. I've worked at the R&D department and assisted my tutor during the first two years. I created software components aimed to predict organs position during breathing and showed those information on a _VTK_ 3D scene. For my final year project, I also improved and optimized 3D scene rendering by using _Ogre3D_, a _C++_ library."
+        details = "_IRCAD_ is a training and research institute, whose goal is to improve the treatment of patients with digestive cancer by using cutting-edge technologies. I've worked at the R&D department and assisted my tutor during the first two years. I created software components aimed to predict organs position during breathing and showed those information on a _VTK_ 3D scene. For my final year project, I improved and optimized 3D scene rendering by using _Ogre3D_, a _C++_ library."
 
         [[params.jobs.list]]
         position = "Software Development Internship"
