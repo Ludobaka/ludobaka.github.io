@@ -40,7 +40,7 @@ title = "Resume"
         position = "Software Development Internship"
         dates = "2012"
         company = "BIONEXT SA, Strasbourg, France"
-        details = "_BioNote_ is a plugin of Bioviz, a 3D molecular visualization software in _Java_ developed by _BIONEXT_. My mission was to develop a proof of concept of a plugin aimed to easily create molecular animations. It's purpose is to help scientists to illustrate their researches by providing interactive animations."
+        details = "_BioNote_ is a plugin of Bioviz, a 3D molecular visualization software in _Java_ developed by _BIONEXT_. My mission was to develop a proof of concept of a plugin aimed to easily create molecular animations. Its purpose is to help scientists to illustrate their researches by providing interactive animations."
 
     # Projects section
     [params.projects]

@@ -1,3 +1,4 @@
 [submodule "themes/hugo-geo"]
 	path = themes/hugo-geo
 	url = https://github.com/Ludobaka/hugo-geo.git
+	branch = customTheme
