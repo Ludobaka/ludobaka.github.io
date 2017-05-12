@@ -16,7 +16,7 @@ title = "Resume"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Software Development Engineer with 3+ years of experience in data processing and data visualization. I have an Engineering Degree from _Telecom Physique Strasbourg_ specialized in _Healthcare Information Technologies_.<br/>Outgoing and detail-oriented, I am proficient at building the tools of tomorrow."
+        summary = "Software Development Engineer with 3+ years of experience in data processing and data visualization. I have an Engineering Degree from _Telecom Physique Strasbourg_ specialized in _Healthcare Information Technologies_.<br/>Open-minded, creative and detail-oriented, I am proficient for building the softwares of tomorrow."
 
     # Experiences section
     [params.experiences]
@@ -28,19 +28,19 @@ title = "Resume"
         position = "Software Development Engineer"
         dates = "2015 - Present"
         company = "BIONEXT SA, Strasbourg, France"
-        details = "BiovizJS is a 3D molecular visualization Web application built on top of ThreeJS, a WebGL graphics library. I am in charge of all aspects of software development : design, conception, build, tests and training. I've implemented some scientific publications to improve rendering quality and performances."
+        details = "_BiovizJS_ is a 3D molecular visualization Web application built on top of _ThreeJS_, a _WebGL_ graphics library. I am in charge of all aspects of software development : design, conception, build, tests and training. I've also implemented scientific publications to improve rendering quality and computational performances."
 
         [[params.jobs.list]]
         position = "Software Development Apprenticeship"
         dates = "2012 - 2015"
         company = "IRCAD, Strasbourg, France"
-        details = "IRCAD is a training and research institute, whose goal is to improve the treatment of patients with digestive cancer by using new technologies. I've worked with the R&D departement of the institute, and my mission was to create preoperative and postoperative softwares aimed to predict organs position during breathing. My final year project was to improve and optimize 3D scene rendering by using _Ogre3D_, a _C++_ library."
+        details = "_IRCAD_ is a training and research institute, whose goal is to improve the treatment of patients with digestive cancer by using cutting-edge technologies. I've worked at the R&D department, assisting my tutor by creating software components aimed to predict organs position during breathing and show those information on a 3D scene. For my final year project, I also improved and optimized 3D scene rendering by using _Ogre3D_, a _C++_ library."
 
         [[params.jobs.list]]
         position = "Software Development Internship"
         dates = "2012"
         company = "BIONEXT SA, Strasbourg, France"
-        details = "BioNote is a plugin of Bioviz, a 3D molecular visualization tool in _Java_ from BIONEXT. My job was to develop a proof of concept of the tool, aimed to easily create molecular animations. It's purpose is to help scientists to illustrate their research work with interactive animations."
+        details = "_BioNote_ is a plugin of Bioviz, a 3D molecular visualization software in _Java_ developed by _BIONEXT_. My mission was to develop a proof of concept of a plugin aimed to easily create molecular animations. It's purpose is to help scientists to illustrate their researches by providing interactive animations."
 
     # Projects section
     [params.projects]
@@ -52,7 +52,7 @@ title = "Resume"
         [[params.projects.list]]
         title = "ThreeJS"
         url = "https://threejs.org/"
-        tagline = "A WebGL graphics library, aiming to create an easy to use, lightweight, 3D library. I'm a casual contributor of this library, trying to contribute everytime I'm encountering some bugs or wanting some new functionalities. If you want to check my open-source contributions, please check my _GitHub_ profile."
+        tagline = "A _WebGL_ graphics library, aiming to create an easy to use, lightweight, 3D library. I'm a casual contributor of this library, trying to contribute everytime I'm encountering some bugs or wanting some new functionalities. If you want to check my open-source contributions, please check my _GitHub_ profile."
 
         [[params.projects.list]]
         title = "Follow-Up"
@@ -67,7 +67,7 @@ title = "Resume"
         [[params.projects.list]]
         title = "Biochips"
         # url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Creation of an automated process for biochips production on a Biomek 2000 robot. We were in charge of establishing the various parameters allowing the creation of biochips as well as developing the TCL code allowing automated control of the robot. This project has been made during Engineering Project at Telecom Physique Strasbourg with a multidisciplinary team (physics, computer science, chemistry and industrial electronics)."
+        tagline = "Creation of an automated process for biochips production on a Biomek 2000 robot. We were in charge of establishing the various parameters allowing the creation of biochips as well as developing the _TCL_ code allowing automated control of the robot. This project has been made during Engineering Project at Telecom Physique Strasbourg with a multidisciplinary team (physics, computer science, chemistry and industrial electronics)."
 
     # Skills section
     [params.skills]
