@@ -1,7 +1,7 @@
 baseurl = "https://ludobaka.github.io/"
 theme = "hugo-geo"
 languageCode = "en-us"
-title = "Ludovic Bailly Personal Website"
+title = "Ludovic Bailly : Data Processing & 3D Modeling Engineer"
 disqusShortname = "ludobaka-github-io"
 relativeURLs = false
 enableRobotsTXT = true
@@ -25,6 +25,7 @@ paginate = 5
 	title = "Ludovic Bailly"
 	subtitle = "Data Processing & 3D Modeling Engineer"
 	description = "I'm Ludovic Bailly, a Software Engineer specialized in 3D Data Visualization. I aim to participate in building the tools of the future with a strong interest in VR and AR."
+	defaultKeywords = ["ludovic bailly", "programming", "3D", "visualization", "data processing", "engineer"]
 
 	# Social buttons for sidebar
 	# Each of these are optional
