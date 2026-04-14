@@ -1,5 +1,0 @@
-dev:
-    - 'hugo:dev'
-edit:
-    - 'connect'
-    - 'watch'
